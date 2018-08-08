@@ -7,7 +7,10 @@ const fetchWeather = async (e) => {
   const zipCode = $('.field').val();
   const fetchData = await fetch(`https://api.openweathermap.org/data/2.5/forecast?zip=${zipCode},us&appid=2ef1600da6ac3da492e419f46a52a671`);
   const weatherData = await fetchData.json();
-  console.log(weatherData)
+
+  if($('.weather-card').length !== 0) {
+    $('.weather-card').remove()
+  }
   showLocation(weatherData.city.name, weatherData.city.country);
   forecast(weatherData.list);
   clearInput();
