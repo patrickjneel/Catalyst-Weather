@@ -1,6 +1,31 @@
 body {
   background-color: #2f292b;
-  margin: 0px;
-  font-family: 'Open Sans', sans-serif;
   color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-size: 68px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 54px;
+  margin: 10px 0px 16px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 23px;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #c96c47;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  height: 54px;
+  padding: 4px 29px;
+  width: 32%;
 }
