@@ -29,8 +29,8 @@ const forecast = (array) => {
     const icon = `http://openweathermap.org/img/w/${day.weather[0].icon}.png`;
     $('.weather-data').append(`
         <div class="weather-card">
-          <div>Time: ${timeOfDay}</div>
           <div>Day: ${dayOfWeek}</div>
+          <div>Time: ${timeOfDay}</div>
           <img src="${icon}" alt="weather-icon">
           <div>Temp: ${temp.toString().slice(0, 2)} F</div>
           <div>${day.weather[0].description}</div>

@@ -98,3 +98,21 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 925px) {
+  form {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .button {
+    margin-top: 10px;
+    width: 42%;
+  }
+
+  .field {
+    margin-right: unset;
+    width: 100%;
+  }
+}
