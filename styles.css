@@ -73,3 +73,46 @@ form {
   padding-right: 129px;
   padding-left: 129px;
 }
+
+.city-info {
+  font-size: 32px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.weather-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 84px;
+}
+
+.weather-card {
+  color: black;
+  background-color: #f0e6d9;
+  border: 1px solid yellow;
+  height: 180px;
+  margin: 7px;
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 925px) {
+  form {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .button {
+    margin-top: 10px;
+    width: 42%;
+  }
+
+  .field {
+    margin-right: unset;
+    width: 100%;
+  }
+}
