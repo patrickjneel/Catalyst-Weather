@@ -73,3 +73,9 @@ form {
   padding-right: 129px;
   padding-left: 129px;
 }
+
+.city-info {
+  font-size: 32px;
+  margin-top: 7px;
+  text-align: center;
+}
