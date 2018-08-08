@@ -79,3 +79,22 @@ form {
   margin-top: 7px;
   text-align: center;
 }
+
+.weather-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 84px;
+}
+
+.weather-card {
+  color: black;
+  background-color: #f0e6d9;
+  border: 1px solid yellow;
+  height: 180px;
+  margin: 7px;
+  width: 167px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
