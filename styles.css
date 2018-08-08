@@ -14,10 +14,10 @@ h1 {
   margin: 10px 0px 16px;
 }
 
-p {
-  font-size: 22px;
-  line-height: 23px;
-  margin-bottom: 5px;
+.subtitle {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 34px;
 }
 
 .button {
@@ -28,4 +28,48 @@ p {
   height: 54px;
   padding: 4px 29px;
   width: 32%;
+}
+
+.field {
+  background-color: rgba(47, 41, 43, .65);
+  border: 0px solid #000;
+  border-radius: 4px;
+  color: white;
+  font-size: 32px;
+  height: 54px;
+  margin-right: 3%;
+  width: 80%;
+}
+
+::placeholder {
+  color: white;
+}
+
+.search-form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 47px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 52%;
+}
+
+.header-section {
+  background-image: url('./assets/rain.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  opacity: 0.69;
+  text-align: center;
+}
+
+.container {
+  padding-right: 129px;
+  padding-left: 129px;
 }
